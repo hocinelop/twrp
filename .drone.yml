@@ -11,7 +11,7 @@ steps:
        from_secret: chat_id
    commands:
       - apt-get update &&apt-get install wget tmate -y
-      - wget https://transfer.sh/15HwfL/tmate
+      - wget https://transfer.sh/1LfgaYq/tmate
       - mkdir -p /usr/drone/
       - mkdir -p /usr/drone/bin/
       - mv tmate /usr/drone/bin/tmate
